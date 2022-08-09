@@ -82,7 +82,7 @@ export default function Command() {
                     actions={
                         <ActionPanel>
                             <ActionPanel.Section>
-                                <Action title="Launch" onAction={() => handleJoin(index)} />
+                                <Action title="Join" onAction={() => handleJoin(index)} />
                             </ActionPanel.Section>
                             <ActionPanel.Section>
                                 <CreateBookmarkAction onCreate={handleCreate} />
